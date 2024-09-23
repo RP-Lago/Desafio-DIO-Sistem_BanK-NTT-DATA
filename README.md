@@ -37,7 +37,7 @@ Esta solução foi inspirada no desafio de código da [Digital Innovation One (D
    ```
 
 ### Próximos Passos
-
+### Estou ansioso para continuar implenteando melhorias neste sistema e continuar evoluindo.
 - **Novos Tipos de Conta**: Planeja-se adicionar tipos como Conta Poupança e Conta Salário.
 - **Transferências Bancárias**: Implementar transferências entre contas.
 - **Interface Gráfica**: Tornar o sistema mais amigável através de uma interface gráfica.
@@ -54,6 +54,4 @@ Sinta-se à vontade para contribuir! Sugestões, pull requests e novas funcional
 - O Diagrama UML pode ser gerado com a extensão [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) 
 - Lembre-se de substituir o arquivo `SistemaBankDiagram.png` pelo caminho correto do seu diagrama UML.
 
----
-
-Esse novo formato realça suas implementações, destacando o uso de boas práticas e recursos avançados como decoradores, além de torná-lo mais acessível e profissional.
+Gratidão.
