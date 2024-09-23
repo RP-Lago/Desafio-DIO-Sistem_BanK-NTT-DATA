@@ -1,7 +1,3 @@
-Aqui está a versão melhorada e mais atraente do seu texto do README.md:
-
----
-
 ## Sistema Bancário Orientado a Objetos em Python
 
 Este projeto desenvolve um **sistema bancário completo em Python**, utilizando os princípios de **Programação Orientada a Objetos (POO)**, como classes, herança, encapsulamento e polimorfismo. Ele permite criar clientes (pessoas físicas), contas bancárias e realizar operações fundamentais como depósitos, saques e consultas de extrato.
