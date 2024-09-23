@@ -1,0 +1,62 @@
+@startuml SistemaBankDiagram
+skinparam classAttributeIconSize 0
+hide circle
+
+class Cliente {
+  - endereco : str
+  - contas : list
+  + realizar_transacao(conta : Conta, transacao : Transacao)
+  + adicionar_conta(conta : Conta) 
+}
+
+class PessoaFisica {
+  - cpf : str
+  - nome : str
+  - data_nascimento : date
+}
+
+class Conta {
+  - saldo : float
+  - numero : int
+  - agencia : str
+  - cliente : Cliente
+  - historico : Historico
+  + saldo() : float
+  + nova_conta(cliente : Cliente, numero : int) : Conta
+  + sacar(valor : float) : bool
+  + depositar(valor : float) : bool
+}
+
+class ContaCorrente {
+  - limite : float
+  - limite_saques : int
+}
+
+class Historico {
+  + adicionar_transacao(transacao : Transacao)
+  - _historico : 1
+}
+
+interface Transacao <<interface>> {
+  + registrar(conta : Conta)
+}
+
+class Deposito {
+  - valor : float
+}
+
+class Saque {
+  - valor : float
+}
+
+
+Cliente "1" -- "*" Conta : -cliente
+Cliente <|-- PessoaFisica
+Cliente "1" -- "*" Transacao : -realiza
+Conta <|- ContaCorrente
+Historico "1" o-- "*" Transacao : -transacoes
+Conta *-- Historico : -contas
+Transacao <|.. Deposito : realiza
+Transacao <|.. Saque : realiza
+
+@enduml

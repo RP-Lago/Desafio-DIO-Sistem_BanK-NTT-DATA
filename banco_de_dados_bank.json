@@ -1,0 +1,100 @@
+{
+    "clientes": [
+        {
+            "nome": "Ru",
+            "data_nascimento": "01-01-2000",
+            "cpf": "12345678912",
+            "endereco": "Alameda Armando Alc\u00e2ntara, Jardim Imperador - Suzano/SP, 25",
+            "contas": [
+                "1"
+            ]
+        },
+        {
+            "nome": "Se",
+            "data_nascimento": "01-01-1990",
+            "cpf": "23456789123",
+            "endereco": "Rua Santa M\u00f4nica, Recreio Primavera - Itapecerica da Serra/SP, 21",
+            "contas": [
+                "2"
+            ]
+        }
+    ],
+    "contas": [
+        {
+            "numero": "1",
+            "agencia": "0001",
+            "saldo": 219.0,
+            "cliente_cpf": "12345678912",
+            "limite": 130.0,
+            "limite_saques": 3,
+            "historico": [
+                {
+                    "tipo": "Deposito",
+                    "valor": 130.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Deposito",
+                    "valor": 120.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Saque",
+                    "valor": 1.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Saque",
+                    "valor": 10.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Saque",
+                    "valor": 20.0,
+                    "data": "23-09-2024 11:23:18"
+                }
+            ]
+        },
+        {
+            "numero": "2",
+            "agencia": "0001",
+            "saldo": 6076.0,
+            "cliente_cpf": "23456789123",
+            "limite": 5000.0,
+            "limite_saques": 3,
+            "historico": [
+                {
+                    "tipo": "Deposito",
+                    "valor": 5000.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Deposito",
+                    "valor": 25.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Deposito",
+                    "valor": 25.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Deposito",
+                    "valor": 1000.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Deposito",
+                    "valor": 1.0,
+                    "data": "23-09-2024 11:23:18"
+                },
+                {
+                    "tipo": "Deposito",
+                    "valor": 25.0,
+                    "data": "23-09-2024 11:25:43"
+                }
+            ]
+        }
+    ],
+    "proximo_numero_conta": 3
+}
