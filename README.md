@@ -11,9 +11,8 @@ Este projeto desenvolve um **sistema bancário completo em Python**, utilizando 
 Esta solução foi inspirada no desafio de código da [Digital Innovation One (DIO)](https://www.dio.me/), orientado pelo especialista [Guilherme Carvalho](https://www.linkedin.com/in/decarvalhogui). O desafio original utilizava dicionários para armazenamento de dados, mas nesta versão, as informações são estruturadas em objetos, alinhados ao **modelo UML de classes**.
 
 ### Diagrama UML - Visão das Classes
-
-![Diagrama UML](diagrama_classes.png)
-
+![Diagrama do Sistema Bancário](https://github.com/RP-Lago/Desafio-DIO-Sistem_BanK-NTT-DATA/blob/main/SistemaBankDiagram.png)
+                                                                                                                   👍👌😀
 ### Funcionalidades Principais
 
 - **Cadastro de Clientes**: Crie novos clientes, fornecendo nome, data de nascimento, CPF e endereço (buscado automaticamente via **API ViaCEP**).
